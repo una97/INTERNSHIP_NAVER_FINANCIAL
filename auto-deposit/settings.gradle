@@ -1,0 +1,5 @@
+rootProject.name = 'auto-deposit'
+include 'account-common'
+include 'account-batch'
+include 'account-api'
+

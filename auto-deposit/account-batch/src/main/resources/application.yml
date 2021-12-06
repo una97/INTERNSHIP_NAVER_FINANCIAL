@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Qwer1234*
+    url: jdbc:mysql://localhost:3306/internDB
+    username: root
+  batch:
+    job:
+      names: ${job.name:NONE}
+server:
+  port: 8081
